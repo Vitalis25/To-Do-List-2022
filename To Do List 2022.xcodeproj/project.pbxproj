@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		0D8643BD28930C8A0083312C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643BC28930C8A0083312C /* AppDelegate.swift */; };
 		0D8643BF28930C8A0083312C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643BE28930C8A0083312C /* SceneDelegate.swift */; };
-		0D8643C128930C8A0083312C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643C028930C8A0083312C /* ViewController.swift */; };
 		0D8643C428930C8A0083312C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8643C228930C8A0083312C /* Main.storyboard */; };
 		0D8643C628930C8B0083312C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8643C528930C8B0083312C /* Assets.xcassets */; };
 		0D8643C928930C8B0083312C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8643C728930C8B0083312C /* LaunchScreen.storyboard */; };
+		0D8643D228930CE70083312C /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643D128930CE70083312C /* ToDo.swift */; };
+		0D8643D7289325790083312C /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643D6289325790083312C /* ToDoTableViewController.swift */; };
+		0D8643D9289325B20083312C /* ToDoItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643D8289325B20083312C /* ToDoItemTableViewController.swift */; };
+		0D8643DC28935CD30083312C /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643DB28935CD30083312C /* ToDoCell.swift */; };
+		0D8643DF2893E25D0083312C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643DE2893E25D0083312C /* String+Extension.swift */; };
+		0D8643E12893EA970083312C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643E02893EA970083312C /* Date+Extension.swift */; };
+		0D8643E328955AEB0083312C /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643E228955AEB0083312C /* TextFieldCell.swift */; };
+		0D8643E52895617C0083312C /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643E42895617C0083312C /* SwitchCell.swift */; };
+		0D8643E7289561C80083312C /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643E6289561C80083312C /* DateCell.swift */; };
+		0D8643E92895620A0083312C /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643E82895620A0083312C /* DatePickerCell.swift */; };
+		0D8643EB289562580083312C /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8643EA289562580083312C /* ImageCell.swift */; };
+		0DCB1C982895DCAE007CA4EA /* SectionDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB1C972895DCAE007CA4EA /* SectionDatePicker.swift */; };
+		0DCB1C9A2895DE75007CA4EA /* SectionPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB1C992895DE75007CA4EA /* SectionPickerController.swift */; };
+		0DCB1C9C2895DECA007CA4EA /* SectionSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB1C9B2895DECA007CA4EA /* SectionSwitch.swift */; };
+		0DCB1C9E2895DFA4007CA4EA /* SectionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB1C9D2895DFA4007CA4EA /* SectionTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D8643B928930C8A0083312C /* To Do List 2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List 2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8643BC28930C8A0083312C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D8643BE28930C8A0083312C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D8643C028930C8A0083312C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D8643C328930C8A0083312C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D8643C528930C8B0083312C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D8643C828930C8B0083312C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D8643CA28930C8B0083312C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8643D128930CE70083312C /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		0D8643D6289325790083312C /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		0D8643D8289325B20083312C /* ToDoItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTableViewController.swift; sourceTree = "<group>"; };
+		0D8643DB28935CD30083312C /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		0D8643DE2893E25D0083312C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0D8643E02893EA970083312C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		0D8643E228955AEB0083312C /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		0D8643E42895617C0083312C /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		0D8643E6289561C80083312C /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		0D8643E82895620A0083312C /* DatePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerCell.swift; sourceTree = "<group>"; };
+		0D8643EA289562580083312C /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		0DCB1C972895DCAE007CA4EA /* SectionDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDatePicker.swift; sourceTree = "<group>"; };
+		0DCB1C992895DE75007CA4EA /* SectionPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionPickerController.swift; sourceTree = "<group>"; };
+		0DCB1C9B2895DECA007CA4EA /* SectionSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSwitch.swift; sourceTree = "<group>"; };
+		0DCB1C9D2895DFA4007CA4EA /* SectionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,85 @@
 		0D8643BB28930C8A0083312C /* To Do List 2022 */ = {
 			isa = PBXGroup;
 			children = (
-				0D8643BC28930C8A0083312C /* AppDelegate.swift */,
+				0D8643D328931D710083312C /* App */,
+				0D8643DA28935C790083312C /* Cells */,
+				0D8643DD2893DF6F0083312C /* Extensions */,
+				0D8643D028930CAF0083312C /* Models */,
 				0D8643BE28930C8A0083312C /* SceneDelegate.swift */,
-				0D8643C028930C8A0083312C /* ViewController.swift */,
-				0D8643C228930C8A0083312C /* Main.storyboard */,
-				0D8643C528930C8B0083312C /* Assets.xcassets */,
-				0D8643C728930C8B0083312C /* LaunchScreen.storyboard */,
-				0D8643CA28930C8B0083312C /* Info.plist */,
+				0D8643D428931D890083312C /* Storyboards */,
+				0DCB1C962895DBDD007CA4EA /* View */,
+				0D8643D528931D980083312C /* View Controllers */,
 			);
 			path = "To Do List 2022";
+			sourceTree = "<group>";
+		};
+		0D8643D028930CAF0083312C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D8643D128930CE70083312C /* ToDo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D8643D328931D710083312C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0D8643BC28930C8A0083312C /* AppDelegate.swift */,
+				0D8643C528930C8B0083312C /* Assets.xcassets */,
+				0D8643CA28930C8B0083312C /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0D8643D428931D890083312C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0D8643C228930C8A0083312C /* Main.storyboard */,
+				0D8643C728930C8B0083312C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0D8643D528931D980083312C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D8643D6289325790083312C /* ToDoTableViewController.swift */,
+				0D8643D8289325B20083312C /* ToDoItemTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0D8643DA28935C790083312C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0D8643E6289561C80083312C /* DateCell.swift */,
+				0D8643E82895620A0083312C /* DatePickerCell.swift */,
+				0D8643EA289562580083312C /* ImageCell.swift */,
+				0D8643E42895617C0083312C /* SwitchCell.swift */,
+				0D8643E228955AEB0083312C /* TextFieldCell.swift */,
+				0D8643DB28935CD30083312C /* ToDoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0D8643DD2893DF6F0083312C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D8643DE2893E25D0083312C /* String+Extension.swift */,
+				0D8643E02893EA970083312C /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0DCB1C962895DBDD007CA4EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DCB1C972895DCAE007CA4EA /* SectionDatePicker.swift */,
+				0DCB1C992895DE75007CA4EA /* SectionPickerController.swift */,
+				0DCB1C9B2895DECA007CA4EA /* SectionSwitch.swift */,
+				0DCB1C9D2895DFA4007CA4EA /* SectionTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +236,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D8643C128930C8A0083312C /* ViewController.swift in Sources */,
 				0D8643BD28930C8A0083312C /* AppDelegate.swift in Sources */,
+				0D8643E7289561C80083312C /* DateCell.swift in Sources */,
+				0D8643DF2893E25D0083312C /* String+Extension.swift in Sources */,
+				0D8643DC28935CD30083312C /* ToDoCell.swift in Sources */,
+				0D8643D7289325790083312C /* ToDoTableViewController.swift in Sources */,
+				0DCB1C9E2895DFA4007CA4EA /* SectionTextField.swift in Sources */,
+				0DCB1C9C2895DECA007CA4EA /* SectionSwitch.swift in Sources */,
+				0D8643D9289325B20083312C /* ToDoItemTableViewController.swift in Sources */,
+				0D8643E328955AEB0083312C /* TextFieldCell.swift in Sources */,
+				0D8643E12893EA970083312C /* Date+Extension.swift in Sources */,
 				0D8643BF28930C8A0083312C /* SceneDelegate.swift in Sources */,
+				0D8643D228930CE70083312C /* ToDo.swift in Sources */,
+				0D8643E52895617C0083312C /* SwitchCell.swift in Sources */,
+				0D8643E92895620A0083312C /* DatePickerCell.swift in Sources */,
+				0DCB1C9A2895DE75007CA4EA /* SectionPickerController.swift in Sources */,
+				0D8643EB289562580083312C /* ImageCell.swift in Sources */,
+				0DCB1C982895DCAE007CA4EA /* SectionDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +401,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F8NU337697;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "To Do List 2022/Info.plist";
+				INFOPLIST_FILE = "To Do List 2022/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +429,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F8NU337697;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "To Do List 2022/Info.plist";
+				INFOPLIST_FILE = "To Do List 2022/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
